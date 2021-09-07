@@ -3,9 +3,7 @@ currentBuild.displayName = "online-shopping-#"+currentBuild.number
 pipeline{
     agent any
     
-    environment{
-        PATH = "E:\VIVEK\tools\Maven\apache-maven-3.6.2\bin"
-    }
+   
     stages{
         stage("Git Checkout"){
             steps{
